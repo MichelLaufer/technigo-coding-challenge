@@ -1,0 +1,31 @@
+body {
+  background: #0055A5;
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #FF84FA;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.wrap {
+ margin-top: 10vh;
+}
+
+@media (min-width: 768px) {
+  body {
+    position: relative;
+  }
+
+  .wrap {
+    left: 25%;
+    position: absolute;
+    right: 25%;
+  }
+}
